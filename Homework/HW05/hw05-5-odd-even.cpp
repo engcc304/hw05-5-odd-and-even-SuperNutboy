@@ -16,3 +16,19 @@
         -22 is an even integer
 
 */
+#include <stdio.h>
+
+int main () {
+
+    int num ;
+
+    printf("Input Num :");
+    scanf( "%d",&num );
+
+    if (num % 3 == 0) {
+        printf( "%d is an odd integer" ,num) ;
+    } else {
+        printf( "%d is an even integer" ,num) ;
+    }
+    return 0;
+}
